@@ -1,3 +1,9 @@
+/*
+	Practice Problems:
+	http://codeforces.com/contest/757/problem/F
+	http://codeforces.com/gym/101741/problem/L
+*/
+
 #include<bits/stdc++.h>
 
 using namespace std;
