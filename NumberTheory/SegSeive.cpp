@@ -1,6 +1,9 @@
 /*
    Memory-Efficient sieve of Eratosthenes, also known as the segmented seive.
 
+   Resources:
+   https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Segmented_sieve
+
    Problems for Practice:
    http://codeforces.com/contest/1017/problem/F
 */
