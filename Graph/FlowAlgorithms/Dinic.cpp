@@ -65,6 +65,6 @@ int dinic(int source, int sink){
 }
 
 int main(){
-	
+	memset(head, -1, sizeof(head));
 	return 0;
 }
