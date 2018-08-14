@@ -1,3 +1,12 @@
+/*
+	Resources:
+	https://en.wikipedia.org/wiki/Dinic%27s_algorithm
+
+	runs in O(V^2 * E)
+	special cases:
+	-runs in O(min(v^2/3, E^1/2)E) in graphs with unit capacities.
+	-runs in O(V^1/2 * E) in "bipartite" graphs.
+*/
 #include<bits/stdc++.h>
 
 using namespace std;
