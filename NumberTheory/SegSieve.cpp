@@ -1,5 +1,5 @@
 /*
-   Memory-Efficient sieve of Eratosthenes, also known as the segmented seive.
+   Memory-Efficient sieve of Eratosthenes, also known as the segmented sieve.
 
    Resources:
    https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Segmented_sieve
