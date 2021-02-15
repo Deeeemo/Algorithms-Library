@@ -230,7 +230,7 @@ vector<Point> circleLine(Point o, ld r, Line l) {
 	return res;
 }
 
-vector<Point> circleCirlce(Point o1, ld r1, Point o2, ld r2) {
+vector<Point> circleCircle(Point o1, ld r1, Point o2, ld r2) {
 	vector<Point> res;
 
 	Point d = o2 - o1;
