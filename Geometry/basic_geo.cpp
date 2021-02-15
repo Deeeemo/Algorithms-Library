@@ -277,6 +277,11 @@ vector<pair<Point, Point>> twoCircleTangents(Point o1, ld r1, Point o2, ld r2, b
 	return res;
 }
 
+Point read_point() {
+    ld x, y; cin >> x >> y;
+    return {x, y};
+}
+
 int main() {
 	return 0;
 }
