@@ -130,7 +130,7 @@ pair<bool, Point> properSegmentInter(Point a, Point b, Point c, Point d) {
 	   oc = cross(b, c, a),
 	   od = cross(b, d, a);
 
-	if (sign(oa) != sign(ob) && sign(oc) != sign(od))
+	if (sign(oa) * sign(ob) < 0 && sign(oc) * sign(od) < 0)
 		return {true, (a*ob - b*oa)/ (ob - oa)};
 	return {false, NULL};
 }
